@@ -1,0 +1,24 @@
+{
+  "name": "muruai-preview",
+  "displayName": "무루아이 프리뷰",
+  "version": "0.1.0",
+  "description": "무루아이 원격 MCP 서버 연결과, 자료 찾기·고치기·이야기책·학습지·그림 넣기를 순서대로 하게 돕는 스킬을 함께 설치합니다.",
+  "author": {
+    "name": "무루아이",
+    "url": "https://muruai.com"
+  },
+  "homepage": "https://qa-muru-57.muruai-fe.pages.dev/settings/ai-tools",
+  "repository": "https://github.com/muruai/muruai-plugin-preview",
+  "keywords": [
+    "muruai",
+    "무루아이",
+    "worksheet",
+    "storybook",
+    "mcp",
+    "education"
+  ],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://github.com/muruai/muruai-plugin-preview#readme",
+  "privacyPolicyUrl": "https://muruai.com/privacy",
+  "termsOfServiceUrl": "https://muruai.com/terms"
+}

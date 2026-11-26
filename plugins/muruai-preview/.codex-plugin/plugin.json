@@ -1,0 +1,43 @@
+{
+  "name": "muruai-preview",
+  "version": "0.1.0",
+  "description": "무루아이 원격 MCP 서버 연결과, 자료 찾기·고치기·이야기책·학습지·그림 넣기를 순서대로 하게 돕는 스킬을 함께 설치합니다.",
+  "author": {
+    "name": "무루아이",
+    "url": "https://muruai.com"
+  },
+  "homepage": "https://qa-muru-57.muruai-fe.pages.dev/settings/ai-tools",
+  "repository": "https://github.com/muruai/muruai-plugin-preview",
+  "keywords": [
+    "muruai",
+    "무루아이",
+    "worksheet",
+    "storybook",
+    "mcp",
+    "education"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "무루아이 프리뷰",
+    "shortDescription": "무루아이 자료를 말로 찾고, 고치고, 만들어요",
+    "longDescription": "무루아이(muruai.com) 계정에 연결해 선생님의 자료를 찾고, 글씨·색·쪽을 고치고, 이야기책·학습지·그림을 만들고, PDF로 받아 볼 수 있게 합니다. 크레딧이 드는 작업은 할 일과 크레딧을 먼저 보여 주고 선생님 확인을 받은 뒤에만 시작합니다. 로그인은 무루아이 계정 OAuth로 하고, 연결은 무루아이 웹 계정 설정 > AI 도구 연결에서 끊을 수 있습니다.",
+    "developerName": "무루아이",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://qa-muru-57.muruai-fe.pages.dev",
+    "privacyPolicyURL": "https://muruai.com/privacy",
+    "termsOfServiceURL": "https://muruai.com/terms",
+    "defaultPrompt": [
+      "내 무루아이 자료 목록 보여 줘",
+      "「감정 수업」 제목 글씨를 크게 바꿔 줘",
+      "친구에게 사과하기 주제로 7살용 4쪽 이야기책 만들어 줘"
+    ],
+    "brandColor": "#5500FF",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  }
+}

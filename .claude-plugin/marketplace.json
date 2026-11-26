@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "muruai-preview",
+  "description": "무루아이 프리뷰 플러그인. 무루아이 프리뷰 환경에 연결해 새 기능을 미리 시험합니다.",
+  "owner": {
+    "name": "무루아이"
+  },
+  "plugins": [
+    {
+      "name": "muruai-preview",
+      "displayName": "무루아이 프리뷰",
+      "source": "./plugins/muruai-preview",
+      "description": "무루아이 원격 MCP 서버 연결과, 자료 찾기·고치기·이야기책·학습지·그림 넣기를 순서대로 하게 돕는 스킬을 함께 설치합니다.",
+      "version": "0.1.0",
+      "author": {
+        "name": "무루아이"
+      },
+      "homepage": "https://qa-muru-57.muruai-fe.pages.dev/settings/ai-tools",
+      "keywords": [
+        "muruai",
+        "무루아이",
+        "worksheet",
+        "storybook",
+        "mcp",
+        "education"
+      ],
+      "category": "productivity"
+    }
+  ]
+}

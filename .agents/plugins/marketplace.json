@@ -1,0 +1,20 @@
+{
+  "name": "muruai-preview",
+  "interface": {
+    "displayName": "무루아이 프리뷰"
+  },
+  "plugins": [
+    {
+      "name": "muruai-preview",
+      "source": {
+        "source": "local",
+        "path": "./plugins/muruai-preview"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

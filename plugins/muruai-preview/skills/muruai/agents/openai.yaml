@@ -1,0 +1,7 @@
+interface:
+  display_name: "무루아이 프리뷰"
+  short_description: "무루아이 자료를 말로 찾고, 고치고, 만들어요"
+  icon_small: "./assets/icon.png"
+  icon_large: "./assets/logo.png"
+  brand_color: "#5500FF"
+  default_prompt: "내 무루아이 자료 목록 보여 줘"

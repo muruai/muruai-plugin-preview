@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "muruai": {
+      "type": "http",
+      "url": "https://muruai-mcp-preview.rladksgh12-88e.workers.dev/mcp"
+    }
+  }
+}
