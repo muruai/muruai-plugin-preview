@@ -1,19 +1,19 @@
 ---
 name: muruai
-description: 무루아이(muruai.com) 자료를 찾고, 고치고, 만들 때 쓰는 절차. 선생님이 학습지·이야기책·감정카드·자료·문서·쪽·글씨·색·배경·그림·PDF·되돌리기·크레딧을 말하거나 "무루아이", "muruai"를 말하면 무루아이 MCP 서버(muruai)의 tool을 쓰기 전에 먼저 읽는다. 크레딧이 드는 작업은 선생님 확인 뒤에만 시작하는 규칙, AI+ 학습지 질문을 대신 답하지 않는 규칙, 그림 올리기·긴 작업·로그인 오류 처리 방법을 담고 있다.
+description: 무루아이(muruai.com) 자료를 찾고, 고치고, 만들 때 쓰는 절차. 선생님이 학습지·이야기책·감정카드·자료·문서·쪽·글씨·색·배경·그림·PDF·되돌리기·크레딧을 말하거나 "무루아이", "muruai"를 말하면 무루아이 MCP 서버(muruai-preview)의 tool을 쓰기 전에 먼저 읽는다. 크레딧이 드는 작업은 선생님 확인 뒤에만 시작하는 규칙, AI+ 학습지 질문을 대신 답하지 않는 규칙, 그림 올리기·긴 작업·로그인 오류 처리 방법을 담고 있다.
 ---
 
 # 무루아이
 
-무루아이는 특수교육·언어치료 선생님이 쓰는 교육 자료 편집기다. 이 플러그인의 MCP 서버 `muruai`가 선생님 계정의 자료를 다루는 tool을 준다. Claude Code에서는 `mcp__plugin_muruai_muruai__<tool>` 이름으로 보이고 지연 로드될 수 있으니, 없다고 단정하지 말고 `muruai`로 tool을 찾아본다.
+무루아이는 특수교육·언어치료 선생님이 쓰는 교육 자료 편집기다. 이 플러그인의 MCP 서버 `muruai-preview`가 선생님 계정의 자료를 다루는 tool을 준다. Claude Code에서는 `mcp__plugin_muruai_muruai__<tool>` 이름으로 보이고 지연 로드될 수 있으니, 없다고 단정하지 말고 `muruai`로 tool을 찾아본다.
 
 ## 1. 시작
 
 1. 요청이 무루아이 자료와 관계없으면(일반 코딩·질문 등) 무루아이 tool을 부르지 않는다.
 2. 자료를 이름으로 말하면 `list_documents`로 문서 ID를 찾는다. 같은 이름이 여럿이면 선생님에게 고르게 한다.
 3. tool이 보이지 않거나 로그인·인증 오류(401, invalid_token, 로그인 필요)가 나면 추측해서 진행하지 말고 로그인 방법을 알린다.
-   - Claude Code: `/mcp`에서 `muruai`를 고르고 Authenticate
-   - Codex: `/mcp`에서 로그인이 필요한 서버를 보거나 `codex mcp login muruai`
+   - Claude Code: `/mcp`에서 `muruai-preview`를 고르고 Authenticate
+   - Codex: `/mcp`에서 로그인이 필요한 서버를 보거나 `codex mcp login muruai-preview`
    - 연결을 끊었거나 다시 연결하려면 무루아이 웹 계정 설정 > AI 도구 연결
 
 ## 2. 자료 보기·고치기 (크레딧 없음)

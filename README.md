@@ -24,7 +24,7 @@ codex plugin add muruai-preview@muruai-preview
 
 ## 로그인
 
-새 대화를 열고 `/mcp`에서 `muruai`를 골라 로그인합니다. 프리뷰 로그인 화면에서는 이메일로 로그인합니다.
+새 대화를 열고 `/mcp`에서 `muruai-preview`를 골라 로그인합니다. Codex는 `codex mcp login muruai-preview`로도 됩니다. 프리뷰 로그인 화면에서는 이메일로 로그인합니다.
 
 ## 연결 끊기
 
