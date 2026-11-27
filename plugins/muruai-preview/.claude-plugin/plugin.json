@@ -1,7 +1,7 @@
 {
   "name": "muruai-preview",
   "displayName": "무루아이 프리뷰",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "무루아이 원격 MCP 서버 연결과, 자료 찾기·고치기·이야기책·학습지·그림 넣기를 순서대로 하게 돕는 스킬을 함께 설치합니다.",
   "author": {
     "name": "무루아이",
